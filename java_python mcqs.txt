@@ -1,0 +1,1227 @@
+1.What is the result of attempting to compile and run the program?
+1.prints 0
+2.Compile time error
+3.Runtime exception
+4.None of the above
+Answer: 1
+
+
+Which of the following modifiers can be applied to a class that is not a nested class?
+public
+protected
+private
+static
+ans 1
+
+
+
+3.Which of the following classes will not allow unsynchronized read operations by multiple threads?
+Vector
+TreeMap
+TreeSet
+HashMap
+HashSet
+
+
+ans 1
+
+
+
+4.StringBuffer objects once created can not be modified 
+true
+false
+  
+
+
+ans false
+
+
+
+5 (give the declaration for a variable called amount of type double.
+The variable should be initialized to 20 in the declaration.
+
+A -
+double amount = 20.;
+
+
+
+
+
+
+
+6.Given a Java class MyExample, which has an instance variable
+called myData. How many copies of myData are stored in memory?
+a. One
+b. The number of times the value of myData is changed.
+c. The total depends on the number of MyExample objects that
+have been instantiated.
+d. 3
+e. Zero
+
+
+A - c
+
+
+
+
+
+7. Q - Given a Java class MyExample, which has an class variable called
+classData. How many copies of classData are stored in memory?
+a. One
+b. The number of times the value of myData is changed.
+c. The total depends on the number of MyExample objects that
+have been instantiated.
+d. 3
+e. Zero
+
+A - a
+
+
+
+8. Q - Which answer correctly completes the sentence: Java provides
+wrapper classes for
+a. all primitive types and the String type.
+b. all numeric types.
+c. all primitive types except boolean.
+d. all primitive types.
+e. every class in Java is a wrapper class.
+
+A - d
+
+9. Q - To what object oriented programming concept does the Java
+keyword extends apply?
+A - inheritance was what I was looking for.
+
+10. Q - To what object oriented programming concept does the Java
+keyword private apply?
+A - encapsulation was what I was looking for, as in keeping
+implementation details hidden
+
+
+11,
+With respect to the Java classes that make up an application,
+which of the following is most correct.
+a. All of the methods should be marked static
+b. All the methods must be defined in a single class
+c. There is at least one class with a method named main
+d. All of the fields must be public
+e. all of a, b, c, and d
+f. a and b only.
+g. b and d only
+
+Answe c
+
+
+12.Which of the following will produce a value of 22 if x=22.9:
+A Ceil(x)
+B Round(x)
+C Rint(x)
+
+answer c  
+
+
+13.
+If m and n are int type variables, what will be the result of the expression
+'m % n' when m = -14 and n = -3?
+A 4
+B 2
+C -2
+D -4
+
+answer -2
+
+
+
+14.
+int x = 10, y = 15; 
+x = ((x < y) ? (y + x) : (y - x); 
+What will be the value of x after executing these statements?
+a.25
+B 15
+C 5
+D Error can't be executed.
+
+Correct Answer : A
+
+
+15.Which of the following will produce a value of 10 if x = 9.7?
+A floor(x)
+B abs(x)
+C rint(x)
+D round(x)
+answer d
+
+
+
+16.Which of the following control expressions are valid for an if statement?
+A an integer expression
+B a Boolean expression
+C either A or B
+D Neither A or B
+
+Correct Answer : B
+
+
+17.Consider the following class definition.
+Class Student extends String
+{
+}
+What happens when we try to compile this class?
+A Will not compile because class body is not defined
+B Will not compile because class is not declared public
+C Will compile successfully.
+D Will not compile because String is abstract
+
+Correct Answer : D
+
+18.What is error in the following class definitions? 
+abstract class xy { 
+abstract sum(int x, int y) {
+} 
+}
+A class header is not define properly
+B constructor is no defined
+C method is not defined properly
+D no error
+
+Correct Answer : c
+
+
+19.Consider the following class definitions:
+ class maths { 
+student student1; 
+} 
+class student { 
+String name; 
+} 
+This code represents:
+A an 'is a' relationship
+B a 'has a' relationship
+C both
+D neither
+answer A
+
+
+
+20
+Which key word can protect a class in package from accessibility by the classes outside the package?
+A private
+B protected
+C final
+D don't use any keyword at all(make it default)
+answer D
+
+
+
+21:We would like to make a member of a class visible in all subclasses regardless of what package they are in. Which
+one of the following keywords would achieve this?
+A private
+B protected
+C public
+D private protected
+
+answer D
+
+
+22.Which of the following are not keywords?
+A NULL
+B Implements
+C Protected
+D None of the above
+
+answer null
+
+
+
+
+23:
+Which of the following keywords are used to control access to a class member?
+A default
+B protected
+C interface
+
+B protected
+
+
+
+24:The keywords reserved but not used in the initial version of Java re:
+A Synchronized
+B Boolean
+C union
+D goto
+
+D:goto
+
+
+
+25:Which of the following statements are true?
+A An abstract class may not have any final methods?
+B A final class may not have any abstracts methods.
+C Transient variables must be static.
+D all of the above
+
+answe B
+
+
+26:Which of the following statements are valid array declarations?
+A int number();
+B float average[];
+C double[] marks;
+D counter int[];
+
+Correct Answer : B
+
+
+
+27:Which of the following classes are available in the java.lang package?
+A Random
+B Stack
+C String Buffer
+
+answer A
+
+28:
+Which of the following are the wrapper classes?
+A Random
+B Vector
+C Byte
+D all of the above
+answer Byte
+
+
+29:Which of the following methods belong to the String class?
+A length()
+B compareTo()
+C substring()
+D all of the them
+
+answwer D
+
+
+30:
+The methods wait() and noify() are defined in
+A java.lang.Thread
+B java.lang.Runnable
+C java.lang.Object
+D java.lang.ThreadGroup
+
+Correct Answer : C
+
+31:When we invoke repaint () for a Component, the AWT invokes the method:
+A draw()
+B update()
+C show()
+D paint()
+
+Correct Answer : B
+
+
+32:What does the following line of code do?
+TextField text=new TextField(10);
+A Creates text object that can hold 10 rows of text.
+B Creates text object that can hold 10 columns of text.
+C Creates the object text and initializes it with the value 10.
+D The code is illegal
+ 
+
+answer B
+
+
+33:
+Which are the valid ways to create DataInputStream streams?
+A new DataInputStream(new File("in.dat"));
+B new DataInputStream(new FileInputStream("in.dat"));
+C new DataInputStream("in.dat");
+
+answer B
+
+
+34:
+Which exception is thrown by the read() method of InputStream class?
+A IOException
+B FileNotFoundException
+C ReadException
+D None of the above
+
+answer A
+
+
+
+35:
+In the code below, what data types the variable x can have?
+A byte b1 = 5;
+B byte b2 = 10;
+C x = b1 * b2;
+D:int short
+
+Correct Answer : D
+
+
+
+36:What is java -g used for?
+A Using the jdb tool
+B Executing a class with optimization turned off
+C To provided information about deprecated methods
+D Non of the above
+
+Correct Answer : B
+
+
+37:with javadoc, which of the following denotes a javadoc comment?
+A //#
+B /*
+C /**
+D //**
+Correct Answer : C
+
+
+
+38:
+Which of the following represent legal flow control statements?
+A break;
+B break();
+C continue(inner);
+D all of the above
+
+Correct Answer : A
+
+39:
+Consider the following code snippet: 
+try 
+{
+int x=0; int y=50/x; 
+System.out.println("Division by zero"); 
+}
+catch(ArithmeticException e) 
+{
+System.out.println("catch block");
+}
+What will be the output?
+A Error. Won't compile
+B Division by zero
+C Catch block
+D Division by zero catch block
+
+Correct Answer : C
+
+
+40
+Which of the following represent legal flow control statements?
+A break();
+B continue(inner);
+C return;
+D exit();
+
+Correct Answer : C
+
+
+41:
+Two methods cannot have the same name in Java.
+A True
+B False
+
+
+false
+
+
+
+42:Class C {
+public static void main(String[] args) {
+int[]a1[]=new int[3][3]; //3
+int a2[4]={3,4,5,6}; //4
+int a2[5]; //5
+}}
+What is the result of attempting to compile and run the program ?.
+1.compiletime error at lines 3,4,5
+2.compiltime error at line 4,5
+3.compiletime error at line 3
+4.Runtime Exception
+5.None of the above
+Ans: 2
+
+43
+nterface I{
+void f1(); // 1
+public void f2(); // 2
+protected void f3(); // 3
+private void f4(); // 4
+}
+which lines generate compile time errors?
+1.compiletime error at lines 1,2,3,4
+2.compiletime error at line 3
+3.compiletime error at line 1
+4.compiletime error at lines 3,4
+5.None of the above
+Answer: 4
+
+
+44:
+class C {
+public static void main (String[] a1) {
+System.out.print(a1[1] + a1[2] + a1[3]);
+}}
+What is the result of attempting to compile and run the program?
+java command A B C
+1.Prints: ABC
+2.Prints BC and Runtime Exception
+3.Prints: BCD
+4.Runtime Exception
+5.None of the above
+Answer 2
+
+
+
+45:class C{
+static int s;
+public static void main(String a[]){
+C obj=new C();
+obj.m1();
+System.out.println(s);
+}
+void m1();
+{
+int x=1;
+m2(x);
+System.out.println(x+"");
+}
+void m2(int x){
+x=x*2;
+s=x;
+}}
+1.prints 1,2
+2.prints 2,0
+3.prints 2,2
+4.compile time error
+5.Noneofthe above
+Answer: 1
+
+
+
+
+46:class C {
+public static void main(String[] args) {
+int i1=1;
+switch(i1){
+case 1:
+System.out.println("one");
+case 2:
+System.out.println("two");
+case 3:
+System.out.println("three");
+}}}
+What is the result of attempting to compile and run the program?
+1.prints one two three
+2.prints one
+3.compile time error
+4.Runtime exceptionf
+5.None of the above
+Answer: 1
+
+
+
+47:Each element must be unique
+Duplicate elements must not replace old elements.
+Elements are not key/value pairs.
+Accessing an element can be almost as fast as performing a similar operation on an array.
+Which of these classes provide the specified features?
+1.LinkedList
+2.TreeMap
+3.HashMap
+4.HashSet
+5.None of the above
+Answer: 4
+
+
+48:class C1
+{
+static interface I
+{
+static class C2
+{
+}
+}
+public static void main(String a[])
+{
+C1.I.C2 ob1=new C1.I.C2();
+System.out.println("object created");
+}
+}
+What is the result of attempting to compile and run the program?
+1.prints object created
+2.Compile time error
+3.Runtime Excepion
+4.None of the above
+Answer: 1
+
+
+49:
+A signed data type has an equal number of non-zero positive and negative values available
+1.true
+2.false
+Answer: 2
+
+
+50:
+class C{
+static int f1(int i) {
+System.out.print(i + ",");
+return 0;
+}
+public static void main (String[] args) {
+int i = 0;
+i = i++ + f1(i);
+System.out.print(i);
+}}
+Prints: 0,0 1
+Prints: 1,0 2
+Prints: 0,1 3
+Compile-time error 4 
+None of the above   5
+Ans: 2
+
+
+
+                         PYTHON <MCQS
+
+
+
+
+1.What will be the output of the following Python code?
+
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+ 
+    i + = 1
+a) 1 2 3
+b) error
+c) 1 2
+d) none of the mentioned
+
+answer B
+
+2:
+What will be the output of the following Python code snippet if x=1?
+
+
+x<<2
+a) 4
+b) 2
+c) 1
+d) 8
+ Answer A
+
+
+3:What are the values of the following Python expressions?
+
+ 2**(3**2)
+ (2**3)**2
+ 2**3**2
+
+a) 512, 64, 512
+b) 512, 512, 512
+c) 64, 512, 64
+d) 64, 64, 64
+ 
+
+Answer A
+
+
+4:What will be the output of the following Python code?
+
+l=[1, 0, 2, 0, 'hello', '', []]
+list(filter(bool, l))
+a) [1, 0, 2, ‘hello’, ”, []]
+b) Error
+c) [1, 2, ‘hello’]
+d) [1, 0, 2, 0, ‘hello’, ”, []]
+
+ANswer C
+
+
+5:Which of the following functions is a built-in function in python?
+a) factorial()
+b) print()
+c) seed()
+d) sqrt()
+answer B
+
+
+6:
+What will be the output of the following Python function?
+
+min(max(False,-3,-4), 2,7)
+a) -4
+b) -3
+c) 2
+d) False
+answe D
+
+7:
+Which of the following is not a core data type in Python programming?
+a) Tuples
+b) Lists
+c) Class
+d) Dictionary
+ answer c
+
+
+8:What will be the output of the following Python function?
+
+len(["hello",2, 4, 6])
+a) Error
+b) 6
+c) 4
+d) 3
+
+answer  c
+
+
+
+9:
+What will be the output of the following Python code?
+
+class tester:
+    def __init__(self, id):
+        self.id = str(id)
+        id="224"
+ 
+>>>temp = tester(12)
+>>>print(temp.id)
+a) 12
+b) 224
+c) None
+d) Error
+
+answer a
+
+
+
+10:Which of the following statements is used to create an empty set in Python?
+a) ( )
+b) [ ]
+c) { }
+d) set()
+
+
+answwr D
+
+
+
+11:
+To add a new element to a list we use which Python command?
+a) list1.addEnd(5)
+b) list1.addLast(5)
+c) list1.append(5)
+d) list1.add(5)
+answer C
+
+
+
+12:What will be the output of the following Python code?
+
+>>>list1 = [1, 3]
+>>>list2 = list1
+>>>list1[0] = 4
+>>>print(list2)
+a) [1, 4]
+b) [1, 3, 4]
+c) [4, 3]
+d) [1, 3]
+answer c
+
+
+
+
+13:What is the maximum possible length of an identifier in Python?
+a) 79 characters
+b) 31 characters
+c) 63 characters
+d) none of the mentioned
+answer D
+
+
+
+14:What will be the output of the following Python program?
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print(0)
+a) error
+b) 0 1 2 0
+c) 0 1 2
+d) none of the mentioned
+
+
+Answer: c
+
+
+
+
+
+15:
+What will be the output of the following Python program?
+
+def addItem(listParam):
+    listParam += [1]
+ 
+mylist = [1, 2, 3, 4]
+addItem(mylist)
+print(len(mylist))
+
+a) 5
+b) 8
+c) 2
+d) 1
+
+
+Answer: a
+
+
+16:
+Which of the following is a Python tuple?
+a) {1, 2, 3}
+b) {}
+c) [1, 2, 3]
+d) (1, 2, 3)
+
+
+Answer: d
+
+
+
+17:
+What will be the output of the following Python expression?
+
+round(4.576)
+a) 4
+b) 4.6
+c) 5
+d) 4.5
+
+
+Answer: c
+
+
+18:
+What is output of print(math.pow(3, 2))?
+a) 9.0
+b) None
+c) 9
+d) None of the mentioned
+
+
+Answer: a
+
+
+19:
+The process of pickling in Python includes ____________
+a) conversion of a Python object hierarchy into byte stream
+b) conversion of a datatable into a list
+c) conversion of a byte stream into Python object hierarchy
+d) conversion of a list into a datatable
+
+
+Answer: a
+
+
+
+
+
+20:
+What is output for −
+
+b = [11,13,15,17,19,21]
+
+ptint(b[::2])
+
+A - [19,21]
+
+B - [11,15]
+
+C - [11,15,19]
+
+D - [13,17,21]
+
+answer C
+
+
+21:class P: 
+   def __init__(self): 
+      self.__x=100 
+      self.y=200 
+   def print(self): 
+      print(self.__x, self.y)  
+class C(P): 
+   def __init__(self): 
+      super().__init__() 
+      self.__x=300 
+      self.y=400  
+d = C() 
+d.print()
+A - 300 400
+
+B - 100 400
+
+C - 100 200
+
+D - 300 200
+answer B
+
+
+
+22:n which language is Python written?
+
+
+
+English
+PHP
+C
+All of the above
+
+
+answer c
+
+
+
+23:
+Which one of the following is the correct extension of the Python file?
+
+.py
+.python
+.p
+None of these
+
+answer .py
+
+
+
+24:what do we use to define a block of code in Python language?
+
+Key
+Brackets
+Indentation
+None of these
+answer c
+
+
+
+25:
+Which of the following statements is correct in this python code?
+
+class Name:  
+    def __init__(javatpoint):  
+        javajavatpoint = java  
+name1=Name("ABC")  
+name2=name1  
+It will throw the error as multiple references to the same object is not possible
+id(name1) and id(name2) will have same value
+Both name1 and name2 will have reference to two different objects of class Name
+All of the above
+
+
+answer B
+
+
+
+26:
+What is the method inside the class in python language?
+
+Object
+Function
+Attribute
+Argument
+
+
+answer B
+
+
+27:Which of the following is not a keyword in Python language?
+
+val
+raise
+try
+with
+
+answwr Val
+
+
+28:
+Which of the following operators is the correct option for power(ab)?
+
+a ^ b
+a**b
+a ^ ^ b
+a ^ * b
+
+answer B
+
+
+
+29:
+Study the following function:
+
+all([2,4,0,6])  
+What will be the output of this function?
+
+False
+True
+0
+Invalid code
+
+answer false
+
+
+30. Which of the following is correct with respect to OOP concept in Python?
+
+A. Objects are real world entities while classes are not real.
+B. Classes are real world entities while objects are not real.
+C. Both objects and classes are real world entities.
+D. Both object and classes are not real.
+
+Ans : A
+
+Explanation: In OOP, classes are basically the blueprint of the objects. They doesnot have physical existence.
+
+32.Which of the following is False with respect Python code?
+class Student:
+
+	def __init__(self,id,age):
+
+		self.id=id
+
+		self.age=age
+
+std=Student(1,20)
+A.	"std" is the reference variable for object Student(1,20)
+B. id and age are called the parameters.
+C. Every class must have a constructor.
+D. None of the above
+
+Ans : C
+Explanation: It is not mandatory for a class to have a constructor.
+
+33. In python, what is method inside class?
+A. attribute
+B. object
+C. argument
+D. function
+Ans : D
+
+Explanation: In OOP of Python, function is known by "method".
+
+34. The child's __init__() function overrides the inheritance of the parent's __init__() function.
+
+A. TRUE
+B. FALSE
+C. Can be true or false
+D. Can not say
+Ans : A
+
+Explanation: The child's __init__() function overrides the inheritance of the parent's __init__() function.
+
+35.  The __________ parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+A. __init__()
+B. self
+C. both A and B
+D. None of the above
+Ans : B
+
+Explanation: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+36. Which character stand for Starts with in regex?
+A. &
+B. ^
+C. $
+D. #
+
+Ans : B
+
+Explanation: In regex, ^ means start with.
+37. Which of the following will result in an error?
+str1="python"
+
+A.	print(str1[2])
+B. str1[1]="x"
+C. print(str1[0:9])
+D. Both (b) and (c)
+Ans : B
+
+Explanation: Strings are immutable. So,new values cannot be assigned at any index position in a string
+
+38.  ___________ are the arguments passed to a function in correct positional order.
+
+A. Required arguments
+B. Keyword arguments
+C. Default arguments
+D. Variable-length arguments
+View Answer
+Ans : A
+
+Explanation: Required arguments are the arguments passed to a function in correct positional order. Here, the number of arguments in the function call should match exactly with the function definition.
+
+39.  ____________________ module is used for serializing and de-serializing any Python object structure.
+A. pickle
+B. unpickle
+C. pandas
+D. math
+Ans: A
+
+40. Which mode create new file if the file does not exist?
+A. write mode
+B. append mode
+C.Both of the above
+D.None of the above
+Ans: C
+
+41. Which function is used to write data in binary mode?
+A. write
+B. writelines
+C.pickle
+D.dump
+Ans: D
+
+42. Which function is used to force transfer of data from buffer to file?
+A. flush( )
+B.save( )
+C.move( )
+D. None of the above
+Ans: A
+
+43. To read the next line of the file from a file object infile, we use ____________
+A.infile.read(2)
+B.infile.read()
+C.infile.readline()
+D.infile.readlines()
+
+Ans: C
+
+44. The readlines() method returns ____________
+A.str
+B.a list of lines
+C.a list of single characters
+D.a list of integers
+
+Ans: B
+Explanation: Every line is stored in a list and returned.
+
+45. Python supports the creation of anonymous functions at runtime, using a construct called __________
+A.pi
+B.anonymous
+C.lambda
+D.none of the mentioned
+
+Ans: C
+Explanation: Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used.
+
+46. Which of these is the definition for packages in Python?
+A.A set of main modules
+B.A folder of python modules
+C.A number of files containing Python definitions and statements
+D.A set of programs making use of Python modules
+Ans: B
+Explanation:A folder of python programs is called as a package of modules.
+
+47. Which one of the following is not a keyword in Python language?
+A.pass
+B.eval
+C.assert
+D.nonlocal
+Ans: B
+Explanation: eval can be used as a variable.
+
+48. What is the maximum possible length of an identifier in Python?
+A.79 characters
+B.31 characters
+C.63 characters
+D.none of the mentioned
+Ans: D
+Explanation: Identifiers can be of any length.
+
+49. What is the type of each element in sys.argv?
+A.set
+B.list
+C.tuple
+D.string
+Ans: D
+Explanation: It is a list of strings.
+
+50. What will be the output of the following Python code?
+def foo():
+    return total + 1
+total = 0
+print(foo())
+A.0
+B.1
+C.error
+D.none of the mentioned
+ 
+
+Ans: B
+Explanation: It is possible to read the value of a global variable directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
